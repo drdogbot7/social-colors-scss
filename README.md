@@ -38,7 +38,7 @@ e.g. for "Facebook", we'll get:
 
 Apparently those last 2 are for SVGs or something. Whatever!
 
-### included brands
+### Included Brands
 
  - amazon
  - apple
