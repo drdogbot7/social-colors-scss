@@ -1,18 +1,18 @@
 {
-  "name": "colors-scss",
-  "version": "0.1.5",
-  "homepage": "https://github.com/schmitzjake/colors-scss",
+  "name": "social-colors-scss",
+  "version": "0.0.1",
+  "homepage": "https://github.com/drdogbot7/social-colors-scss",
   "authors": [
-    "Jake Schmitz <jake.d.schmitz@gmail.com>"
+    "Jeremy Mullis <jeremy.mullis@gmail.com>"
   ],
-  "description": "Simple sass variables for better default colors, based on mrmrs/colors",
-  "main": "dist/_colors.scss",
+  "description": "Sass variables for social media colors",
+  "main": "dist/_social-colors.scss",
   "keywords": [
     "colors",
     "sass",
     "scss"
   ],
-  "license": "MIT",
+  "license": "GPL",
   "ignore": [
     "**/.*",
     "node_modules",
