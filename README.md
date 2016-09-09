@@ -4,6 +4,8 @@ Colors-scss
 ## Simple sass social media color variables and utility classes
 (based on schmittyjd/colors-scss which was based on mrmrs/colors, colors taken from koycarraway/_vars-social-colors.scss)
 
+This Sass package will add a bunch of Sass variables for different social media and other web properties, saving you *literally* tens of seconds of work.
+
 ### Installation
 with bower
 <pre>$ bower install social-colors-scss --save</pre>
