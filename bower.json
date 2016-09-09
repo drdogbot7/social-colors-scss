@@ -1,0 +1,23 @@
+{
+  "name": "colors-scss",
+  "version": "0.1.5",
+  "homepage": "https://github.com/schmitzjake/colors-scss",
+  "authors": [
+    "Jake Schmitz <jake.d.schmitz@gmail.com>"
+  ],
+  "description": "Simple sass variables for better default colors, based on mrmrs/colors",
+  "main": "dist/_colors.scss",
+  "keywords": [
+    "colors",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

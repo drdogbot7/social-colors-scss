@@ -1,0 +1,30 @@
+$social-media-variables: ( 
+    ("amazon", $color--amazon),
+	("apple", $color--apple),
+	("basecamp", $color--basecamp),
+	("box", $color--box),
+	("dribbble", $color--dribbble),
+	("dropbox", $color--dropbox),
+	("ebay", $color--ebay),
+	("facebook", $color--facebook),
+	("flickr", $color--flickr),
+	("foursquare", $color--foursquare),
+	("github", $color--github),
+	("google", $color--google),
+	("google_plus", $color--google_plus),
+	("instagram", $color--instagram),
+	("linkedin", $color--linkedin),
+	("pinterest", $color--pinterest),
+	("skype", $color--skype),
+	("tumblr", $color--tumblr),
+	("twitter", $color--twitter),
+	("vimeo", $color--vimeo),
+	("yelp", $color--yelp),
+	("youtube", $color--youtube),
+);
+
+@each $label, $color in $social-media-variables { .color--#{$label} { color:$color; } }
+@each $label, $color in $social-media-variables { .bg--#{$label} { background-color:$color; } }
+@each $label, $color in $social-media-variables { .border--#{$label} { border:$color; } }
+@each $label, $color in $social-media-variables { .fill--#{$label} { fill:$color; } }
+@each $label, $color in $social-media-variables { .stroke--#{$label}  { stroke:$color; } }
