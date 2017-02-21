@@ -23,7 +23,22 @@ $social-media-variables: (
 	("youtube", $color--youtube),
 );
 
-@each $label, $color in $social-media-variables { .color--#{$label} { color:$color; } }
+@each $label, $color in $social-media-variables {
+	.color--#{$label} {
+		color:$color;
+		a:link, a:visited {
+			color:$color;
+		}
+		a:hover, a:active {
+			color:mix(black, $color, 15%);
+		}
+	}
+	a.color--#{$label} {
+		&:hover, &:active {
+			color:mix(black, $color, 15%);
+		}
+	}
+}
 @each $label, $color in $social-media-variables { .bg--#{$label} { background-color:$color; } }
 @each $label, $color in $social-media-variables { .border--#{$label} { border:$color; } }
 @each $label, $color in $social-media-variables { .fill--#{$label} { fill:$color; } }
