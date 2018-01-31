@@ -23,6 +23,13 @@ $social-media-variables: (
 	("youtube", $color--youtube),
 );
 
+:root {
+	// Custom variable values only support SassScript inside `#{}`.
+	@each $color, $value in $social-media-variables {
+		--#{$color}: #{$value};
+	}
+}
+
 @each $label, $color in $social-media-variables {
 	.color--#{$label} {
 		color:$color;
